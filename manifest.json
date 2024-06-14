@@ -1,6 +1,8 @@
 {
  "short_name": "fig",
  "name": "FigTree",
+ "lang": "en-us",
+ "description": "Reconnecting to Nature",
  "icons": [
   {
    "src": "/img/favicon/android-icon-36x36.png",
