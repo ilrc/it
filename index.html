@@ -2,638 +2,601 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta charset="utf-8">
+    <title>FigTree–Space to Grow Whole</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-    <!-- Title -->
-    <title>iPec – Prototyping Emerging Civilization</title>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
 
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
-    <link rel="apple-touch-icon" sizes="57x57" href="img/core-img/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/core-img/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/core-img/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/core-img/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/core-img/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/core-img/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/core-img/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/core-img/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/core-img/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/core-img/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/core-img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/core-img/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/core-img/favicon-16x16.png">
+    <link rel="icon" href="img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#4B9539">
-    <meta name="msapplication-TileImage" content="img/core-img/ms-icon-144x144.png">
-    <meta name="theme-color" content="#4B9539">
-    <!-- Core Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#4FAA28">
+		
 </head>
 
 <body>
-    <!-- Preloader -->
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="cssload-container">
-            <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
     </div>
+    <!-- Spinner End -->
 
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
-        <!-- Navbar Area -->
-        <div class="palatin-main-menu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="palatinNav">
 
-                        <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-
-                            <!-- close btn -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <!--<li><a href="about-us.html">About</a></li>-->
-                                    <!--<li><a href="#">Pages</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="about-us.html">About Us</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="rooms.html">Rooms</a></li>
-                                            <li><a href="blog.html">News</a></li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                            <li><a href="elements.html">Elements</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Mega Menu</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="rooms.html">Rooms</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="rooms.html">Rooms</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="rooms.html">Rooms</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li><a href="index.html">Home</a></li>
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="services.html">Services</a></li>
-                                                <li><a href="rooms.html">Rooms</a></li>
-                                                <li><a href="blog.html">News</a></li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                                <li><a href="elements.html">Elements</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="services.html">Services</a></li>-->
-                                    <li><a href="#getintouch">Contact</a></li>
-                                </ul>
-
-                                <!-- Button -->
-                                <!--<div class="menu-btn">
-                                    <a href="#reservation" class="btn palatin-btn"><span style="font-size:1.2em"><i class="icon-calendar"></i></span> Make a Reservation</a>
-                                </div>-->
-
-                            </div>
-                            <!-- Nav End -->
-                        </div>
-                    </nav>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-seedling me-3"></i>FigTree</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Courses</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="404.html" class="dropdown-item">404 Page</a>
+                    </div>
                 </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
+            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
-    </header>
-    <!-- ##### Header Area End ##### -->
+    </nav>
+    <!-- Navbar End -->
 
-    <!-- ##### Hero Area Start ##### -->
-    <section class="hero-area">
-        <div class="hero-slides owl-carousel">
 
-            <!-- Single Slide -->
-            <div class="single-hero-slide d-flex align-items-center justify-content-center">
-                <!-- Slide Img -->
-                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-1.jpg);"></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-lg-9">
-                            <!-- Slide Content -->
-                            <div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
-                                <div class="line" data-animation="fadeInUp" data-delay="300ms"></div>
-                                <h2 data-animation="fadeInUp" data-delay="500ms"><span style="font-size:1.2em"><i class="icon-camera"></i></span> Imagination</h2>
-                                <p data-animation="fadeInUp" data-delay="700ms">If the mature market economy is to have a sequel, it will be the work, substantially, of imagination...<br>to come together, to develop ideas with brilliance and authority, being present, participating, investing imagination, being inspired by, and bringing inspiration to, the places we live in.<br><br>– David Fleming</p>
-								<!--<p data-animation="fadeInUp" data-delay="700ms">In order to create a better world for our children, we should:  Have fewer children;<br>Reduce ecological footprint by slowing the use of coal, oil and gas in the rich world;<br>Contruct low-carbon energy system in the poor world, paid for by the rich;<br>Create institutions that counter national short-termism;<br>Most importantly, the coming crisis should be used to develop new gaols for modern society!<br>– Jørgen Randers, The Limits to Growth</p>-->
-                                <a href="#more" class="btn palatin-btn mt-50" data-animation="fadeInUp" data-delay="900ms">Come in</a>
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Wild ones</h5>
+                                <h1 class="display-3 text-white animated slideInDown">Make space to grow</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Give young people a chance to explore all the possibilities of life</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- Single Hero Slide
-            <div class="single-hero-slide d-flex align-items-center justify-content-center">
-                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-1.jpg);"></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-lg-9">
-                            <div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
-                                <div class="line" data-animation="fadeInUp" data-delay="300ms"></div>
-                                <h2 data-animation="fadeInUp" data-delay="500ms"><span style="font-size:1.2em"><i class="icon-island"></i></span> Retreat</h2>
-                                <p data-animation="fadeInUp" data-delay="700ms">These ancient mountains provide a serene setting for a deep dive inside, and a spectacular panorama for a wide gaze on the world.</p>
-                                <a href="#more" class="btn palatin-btn mt-50" data-animation="fadeInUp" data-delay="900ms">Come in</a>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-sm-10 col-lg-8">
+                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Listen to your inner voice</h5>
+                                <h1 class="display-3 text-white animated slideInDown">What the muse is telling me</h1>
+                                <p class="fs-5 text-white mb-4 pb-2">Listen to the voice from within</p>
+                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Join Now</a>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>-->
-
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide d-flex align-items-center justify-content-center">
-                <!-- Slide Img -->
-                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-2.jpg);"></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-lg-9">
-                            <!-- Slide Content -->
-                            <div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
-                                <div class="line" data-animation="fadeInUp" data-delay="300ms"></div>
-                                <h2 data-animation="fadeInUp" data-delay="500ms"><span style="font-size:1.2em"><i class="icon-binoculars"></i></span> Growth</h2>
-                                <p data-animation="fadeInUp" data-delay="700ms">The industrial growth society is simply incompatible with collective human maturity. No true adult wants to be a consumer, worker bee, or tycoon, or a soldier in an imperial war, and none would go through these motions if there were other options at hand. The enlivened soul and wild nature are deadly to industrial growth economies,<br> and vice versa.<br>– Bill Plotkin<!--Are you ready to embark on the adventure of your life? A journey to nature, your unique gift and our common home.--></p>
-                                <a href="#more" class="btn palatin-btn mt-50" data-animation="fadeInUp" data-delay="900ms"><span style="font-size:1.2em"><i class="icon-around"></i></span> Discover</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Single Hero Slide -->
-            <div class="single-hero-slide d-flex align-items-center justify-content-center">
-                <!-- Slide Img -->
-                <div class="slide-img bg-img" style="background-image: url(img/bg-img/bg-3.jpg);"></div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-lg-9">
-                            <!-- Slide Content -->
-                            <div class="hero-slides-content" data-animation="fadeInUp" data-delay="100ms">
-                                <div class="line" data-animation="fadeInUp" data-delay="300ms"></div>
-                                <h2 data-animation="fadeInUp" data-delay="500ms"><i class="fa fa-child"></i> Source</h2>
-                                <p data-animation="fadeInUp" data-delay="700ms">Why do our attempts to deal with the challenges of our time so often fail? The cause of our collective failure is that we are blind to the deeper dimension of leadership and transformational change. This “blind spot” exists not only in our collective leadership but also in our everyday social interactions. We are blind to the source dimension from which effective leadership and social action come into being. We know a great deal about what leaders do and how they do it. But we know very little about the inner place, the source from which they operate.<br>– Otto Scharmer<!--Join fellow artisans, global citizens and masters of diverse arts and sciences in shaping the future of our planetary civilization.--></p>
-                                <a href="#more" class="btn palatin-btn mt-50" data-animation="fadeInUp" data-delay="900ms">Share</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- ##### Hero Area End ##### -->
-
-    <!-- ##### Book Now Area Start ##### --><!--
-    <div class="book-now-area" id="reservation">
-        <br><br><br><br><br><br><br><br><br><br>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-10">
-                    <div class="book-now-form">
-                        <form action="#">
-                            
-                            <div class="form-group">
-                                <label for="select1">Check In</label>
-                                <select class="form-control" id="select1">
-                                  <option>27 May</option><option>28 May</option><option>29 May</option><option>30 May</option><option>31 May</option><option>1 June</option><option>2 June</option><option>3 June</option><option>4 June</option><option>5 June</option><option>6 June</option><option>7 June</option><option>8 June</option><option>9 June</option><option>10 June</option><option>11 June</option><option>12 June</option><option>13 June</option><option>14 June</option><option>15 June</option><option>16 June</option><option>17 June</option><option>18 June</option><option>19 June</option>
-                                  <option>20 June</option>
-                                  <option>21 June</option>
-                                  <option>22 June</option>
-                                  <option>23 June</option>
-                                  <option>24 June</option>
-                                  <option>25 June</option><option>26 June</option><option>27 June</option><option>28 June</option><option>29 June</option><option>30 June</option>
-                                </select>
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="select2">Check Out</label>
-                                <select class="form-control" id="select2">
-                                  <option>31 May</option><option>1 June</option><option>2 June</option><option>3 June</option><option>4 June</option><option>5 June</option><option>6 June</option><option>7 June</option><option>8 June</option><option>9 June</option><option>10 June</option><option>11 June</option><option>12 June</option><option>13 June</option><option>14 June</option><option>15 June</option><option>16 June</option><option>17 June</option><option>18 June</option><option>19 June</option>
-                                  <option>20 June</option>
-                                  <option>21 June</option>
-                                  <option>22 June</option>
-                                  <option>23 June</option>
-                                  <option>24 June</option>
-                                  <option>25 June</option><option>26 June</option><option>27 June</option><option>28 June</option><option>29 June</option><option>30 June</option>
-                                    <option>1 July</option><option>2 July</option><option>3 July</option><option>4 July</option><option>5 July</option><option>6 July</option><option>7 July</option><option>8 July</option><option>9 July</option><option>10 July</option><option>11 July</option><option>12 July</option><option>13 July</option><option>14 July</option><option>15 July</option><option>16 July</option><option>17 July</option><option>18 July</option><option>19 July</option>
-                                  <option>20 July</option>
-                                  <option>21 July</option>
-                                  <option>22 July</option>
-                                  <option>23 July</option>
-                                  <option>24 July</option>
-                                  <option>25 July</option><option>26 July</option><option>27 July</option><option>28 July</option><option>29 July</option><option>30 July</option><option>31 July</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="select3">Adults</label>
-                                <select class="form-control" id="select3">
-                                  <option>02</option>
-                                  <option>03</option>
-                                  <option>04</option>
-                                  <option>05</option>
-                                  <option>06</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="select4">Children</label>
-                                <select class="form-control" id="select4">
-                                  <option>01</option>
-                                  <option>02</option>
-                                  <option>03</option>
-                                  <option>04</option>
-                                  <option>05</option>
-                                </select>
-                            </div>
-
-                            <button type="submit">Book Now</button>
-                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    --><!-- ##### Book Now Area End ##### -->
+    <!-- Carousel End -->
 
-    <!-- ##### About Us Area Start ##### -->
-    <section class="challenge">
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
         <div class="container">
-            <div class="row align-items-center">
-
-                <div class="col-12 col-lg-6">
-                    <div class="about-text text-center mb-100">
-                        <div class="section-heading text-center">
-                            <div class="line-"></div>
-                            <h2><span style="font-size:1.2em"><i class="icon-mountain"></i></span> The Challenge</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                            <h5 class="mb-3">True Adults</h5>
+                            <p>Visionary artisans of cultural evolution</p>
                         </div>
-                        <p>We live in a time of massive institutional failure, collectively creating results that nobody wants: climate change, cancer, hunger, poverty, violence, terrorism. We are witnessing the destruction of communities, nature, life and the foundations of our social, economic, ecological, and spiritual well being.<br><br>In the 21st century, humanity is challenged to a radical and foundational shift in our global culture: from an egocentric industrial growth society to an ecocentric life-sustaining society.</p>
-                        
-                        <div class="about-key-text">
-                            <h6><span class="fa fa-check"></span> Prepare your visit&nbsp;<i class="icon-camera"></i>&nbsp;<i class="icon-boarding-pass"></i>&nbsp;<i class="icon-passport"></i>&nbsp;<i class="icon-suitcase"></i></h6>
-                            <h6><span class="fa fa-check"></span> Experience iPec&nbsp;<i class="icon-boat"></i>&nbsp;<i class="icon-train"></i>&nbsp;<i class="icon-beach"></i>&nbsp;<i class="icon-plane"></i></h6>
-                        </div>
-                        <a href="#more" class="btn palatin-btn mt-50">Read More</a>
                     </div>
                 </div>
-
-                <div class="col-12 col-lg-6">
-                    <div class="about-thumbnail homepage mb-100">
-                        <!-- First Img -->
-                        <div class="first-img wow fadeInUp" data-wow-delay="100ms">
-                            <img src="img/bg-img/6.jpg" alt="">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                            <h5 class="mb-3">The Wanderer</h5>
+                            <p>Go wandering, it's wander-full!</p>
                         </div>
-                        <!-- Second Img -->
-                        <div class="second-img wow fadeInUp" data-wow-delay="300ms">
-                            <img src="img/bg-img/16.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                            <h5 class="mb-3">My Gift</h5>
+                            <p>How can we serve the world in a unique way?</p>
                         </div>
-                        <!-- Third Img-->
-                        <div class="third-img wow fadeInUp" data-wow-delay="500ms">
-                            <img src="img/bg-img/17.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item text-center pt-3">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
+                            <h5 class="mb-3">Book Library</h5>
+                            <p>books to inspire and guide</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ##### About Us Area End ##### -->
+    </div>
+    <!-- Service End -->
 
-    <!-- ##### Pool Area Start ##### -->
-    <section id="more" class="pool-area section-padding-100 bg-img bg-fixed" style="background-image: url(img/bg-img/4.png);">
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
         <div class="container">
-            <div class="row justify-content-end">
-                <div class="col-12 col-lg-7">
-                    <div class="pool-content text-center wow fadeInUp" data-wow-delay="300ms">
-                        <div class="section-heading text-center white">
-                            <div class="line-"></div>
-                            <h2><span style="font-size:1.2em"><i class="icon-compass"></i></span> Leading From the Future</h2>
-                            <p>While most predictions rely on extrapolations of trends based on existing economic models — meeting the challenges of this century require updating our economic logic and operating system.<br><br>This time calls for a new consciousness and a new collective leadership capacity to meet challenges in a more conscious, intentional, and strategic way. The development of such a capacity would allow us to create a future of greater possibilities. </p>
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+                    <h1 class="mb-4">The Fool</h1>
+                    <p class="mb-4">A youth walking joyfully into the world. He is taking his first steps, and he is exuberant, joyful, excited. He carries nothing with him except a small sack, caring nothing for the possible dangers that lie in his path. Indeed, he is soon to encounter the first of these possible dangers, for if he takes just a step more, he he topple over the cliff that he is reaching.</p>
+                    <p class="mb-4">But this doesn't seem to concern him - we are unsure whether he is just naive or simply unaware. The dog at his heels barks at him in warning, and if he does not become more aware of his surroundings soon, he may never see all the adventures that he dreams of encountering.</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>True Adults Instructors</p>
                         </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>The Wanderer</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>My Gift</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Dark Muse</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Rite of passage</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Book Library</p>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 
-                        <div class="row">
-                            <div class="col-12 col-sm-4">
-                                <div class="pool-feature">
-                                    <i class="icon-trekking"></i>
-                                    <p>Immerse yourself in nature</p>
+
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Archetypes</h6>
+                <h1 class="mb-5">Courses Categories</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-1.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Magician</h5>
+                                    <small class="text-primary">Magic is</small>
                                 </div>
-                            </div>
-                            <div class="col-12 col-sm-4">
-                                <div class="pool-feature">
-                                    <i class="icon-sunset"></i>
-                                    <p>Get inspired</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Priestess</h5>
+                                    <small class="text-primary">Mentor, coach, seer</small>
                                 </div>
-                            </div>
-                            <div class="col-12 col-sm-4">
-                                <div class="pool-feature">
-                                    <i class="icon-goggle"></i>
-                                    <p>Dive into this adventure</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="">
+                                <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">The Falling Tower</h5>
+                                    <small class="text-primary">When we are caught by surprise</small>
                                 </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/cat-4.jpg" alt="" style="object-fit: cover;">
+                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                            <h5 class="m-0">The Universe</h5>
+                            <small class="text-primary">Where we belong</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories Start -->
+
+
+    <!-- Courses Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
+                <h1 class="mb-5">Popular Courses</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/course-1.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
                             </div>
                         </div>
-                        <!-- Button -->
-                        <a href="#problem" class="btn palatin-btn mt-50">Problem</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Pool Area End ##### -->
-
-    <section id="problem" class="about-us-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-6">
-                    <div class="about-text mb-100">
-                        <div class="section-heading">
-                            <div class="line-"></div>
-                            <h2><span style="font-size:1.2em"><i class="icon-mountain"></i></span> Problem</h2>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
                         </div>
-                        <p>Over the past 200 years, industrial civilization has been relentlessly undermining Earth’s chemistry, water cycles, atmosphere, soils, oceans, and thermal balance. Plainly said, we have been shutting down the major life systems of our planet. Compounding the ecological crisis are decaying economies, ethnic and class conflicts, and worldwide warfare. Entwined with, and perhaps underlying, these devastations are epidemic failures in individual human development. – <i>Bill Plotkin</i></p>
-                        <a href="#practice" class="btn palatin-btn mt-50">Practice</a>
-                    </div>
-                </div>
-
-                <div class="col-12 col-lg-6">
-                    <div class="about-thumbnail mb-100">
-                        <img src="img/bg-img/6.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="practice" class="about-us-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-6">
-                    <div class="about-text mb-100">
-                        <div class="section-heading">
-                            <div class="line-"></div>
-                            <h2><span style="font-size:1.2em"><i class="icon-compass"></i></span> Practice</h2>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
                         </div>
-                        <p>The currency that counts .. is not ideas. Anyone can have an idea. You can pull one off the Web at any moment. The currency that counts .. is practice. Practices are things that we do every day... listening, contemplation, mindfulness, social-emotional learning practices as well as .. sense and actualize one’s highest future potential. – <i>Otto Scharmer</i></p>
-                        <a href="#future" class="btn palatin-btn mt-50">Future</a>
                     </div>
                 </div>
-
-                <div class="col-12 col-lg-6">
-                    <div class="about-thumbnail mb-100">
-                        <img src="img/bg-img/16.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="future" class="about-us-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-lg-6">
-                    <div class="about-text mb-100">
-                        <div class="section-heading">
-                            <div class="line-"></div>
-                            <h2><span style="font-size:1.2em"><i class="icon-compass"></i></span> Future</h2>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/course-2.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                            </div>
                         </div>
-                        <p>In the coming few decades, humanity is going to be called to radically shift its global culture: from an egocentric industrial growth society to an ecocentric life-sustaining society.<br>This calls for new consciousness, new ways of thinking and a new collective leadership, the development of which would allow us to create a viable, liveable, sustainable and promising future.<br>These new things will not come from the old familiar centers, where people are deeply invested in the existing system; rather, they will be born in unpredicted places in the periphery, where the ruling culture is not fully formed, and there is still space to imagine differently.</p>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                        </div>
                     </div>
                 </div>
-
-                <div class="col-12 col-lg-6">
-                    <div class="about-thumbnail mb-100">
-                        <img src="img/bg-img/17.jpg" alt="">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/course-3.jpg" alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h3 class="mb-0">$149.00</h3>
+                            <div class="mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small>(123)</small>
+                            </div>
+                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- Courses End -->
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
+                <h1 class="mb-5">Expert Instructors</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Instructor Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative">
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">Client Name</h5>
+                    <p>Profession</p>
+                    <div class="testimonial-text bg-light text-center p-4">
+                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
         
-    <!-- ##### Rooms Area Start #####
-    <section class="rooms-area section-padding-100-0">
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Gallery</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/cat-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-4.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/cat-3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-lg-6">
-                    <div class="section-heading text-center">
-                        <div class="line-"></div>
-                        <h2>Choose a room</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                        Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
                     </div>
-                </div>
-            </div>
-
-            <div class="row justify-content-center">
-
-                
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="100ms">
-                        
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/1.jpg);"></div>
-                        
-                        <p class="price-from">From $150/night</p>
-                        
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Deluxe Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
                         </div>
-                        
-                        <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                    </div>
-                </div>
-
-                
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="300ms">
-                        
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/8.jpg);"></div>
-                        
-                        <p class="price-from">From $150/night</p>
-                        
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Double Suite</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
-                        </div>
-                        
-                        <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                    </div>
-                </div>
-
-                
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-rooms-area wow fadeInUp" data-wow-delay="500ms">
-                        
-                        <div class="bg-thumbnail bg-img" style="background-image: url(img/bg-img/9.jpg);"></div>
-                        
-                        <p class="price-from">From $100/night</p>
-                        
-                        <div class="rooms-text">
-                            <div class="line"></div>
-                            <h4>Single Room</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris sceleri sque.</p>
-                        </div>
-                        
-                        <a href="#" class="book-room-btn btn palatin-btn">Book Room</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-     ##### Rooms Area End ##### -->
-
-    <!-- ##### Contact Area Start ##### -->
-    <section class="contact-area d-flex flex-wrap align-items-center">
-        <div class="home-map-area">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2737.178461415181!2d22.8339453152988!3d46.68247865934799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDQwJzU2LjkiTiAyMsKwNTAnMTAuMSJF!5e0!3m2!1sen!2sro!4v1547825362481" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <!-- Contact Info -->
-        <div class="contact-info">
-            <div class="section-heading wow fadeInUp" data-wow-delay="100ms">
-                <div class="line-"></div>
-                <h2><span style="font-size:1.2em"><i class="icon-postcard"></i></span> Contact Info</h2>
-                <p><a href="#getintouch">Get in touch</a> when you are ready to embark on an adventure <a href="#getintouch"><span style="font-size:1.2em"><i class="icon-take-off"></i></span></a> </p>
-            </div>
-            
-            <h4 class="wow fadeInUp" data-wow-delay="300ms"><span style="font-size:1.5em"><i class="icon-map"></i></span> Apuseni Mountains,<br> Transylvania, Romania</h4>
-            
-            <!--<h5 class="wow fadeInUp" data-wow-delay="400ms">+40-77-123456</h5>
-            <h5 class="wow fadeInUp" data-wow-delay="500ms">start@i-pec.ml</h5>-->
-            <!-- Social Info -->
-            <div class="social-info mt-50 wow fadeInUp" data-wow-delay="600ms">
-                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Contact Area End ##### -->
-
-    <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row">
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-lg-5">
-                    <div class="footer-widget-area mt-50">
-                        <a href="#" class="d-block mb-5"><img src="img/core-img/logo.png" alt=""></a>
-                        <p><span style="font-size:1.2em"><i class="icon-sunglasses"></i></span> Institute for Emerging Planetary Civilization (iPEC)<br>is a think-and-act-tank based near Cluj, Transylvania, Romania. </p>
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="footer-widget-area mt-50">
-                        <h6 class="widget-title mb-5"><span style="font-size:2em"><i class="icon-map-1"></i></span> Find us on the map</h6>
-                        <img src="img/bg-img/footer-map.png" alt="">
-                    </div>
-                </div>
-
-                <!-- Footer Widget Area -->
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div id="getintouch" class="footer-widget-area mt-50">
-                        <h6 class="widget-title mb-5"><span style="font-size:1.2em"><i class="icon-postcard"></i></span> Get in touch</h6>
-                        <script type="text/javascript">var submitted=false;</script>
-                        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none" onload="if(submitted){$('#fthx').html('<p>   Thank you, '+$('#fname').val()+' !</p>' ).removeClass('hid');$('#ftel').val('');$('#ftext').val('');$('#femail').val('');$('#fname').val('');}"></iframe>
-                        <form action="https://docs.google.com/forms/d/e/1FAIpQLScTGwUFFJ1QeljzWRIytdHF_SxFdpcYJrQ0HvlcxUYOGsqi1w/formResponse" method="POST" id="mG61Hd" class="subscribe-form" target="hidden_iframe" onsubmit="submitted=true;">
-                            <input id="fname" required type="text" placeholder="name" name="entry.2005620554">
-                            
-                            <input id="femail" required type="email" placeholder="email" name="entry.1045781291">
-                            
-                            <input id="ftel" class="hid" type="text" placeholder="tel" value="contact from i-pec.ml" name="entry.1166974658">
-                            
-                            <input id="ftext" type="text" placeholder="message" width="30" name="entry.839337160">
-                            
-                            <textarea id="pushToken" class="js-subscription-json hid" type="text" name="entry.1984977102"></textarea>
-                            
-                            <button type="submit" onclick="submitted=true" value="Send" class="submit px-3"><i class="fa fa-envelope"></i>&nbsp;send</button>
-                            
-                            <span id="fthx" class="hid"></span>
-                        </form>
-                    </div>
-                </div>
-
-                <!-- Copywrite Text -->
-                <div class="col-12">
-                    <div class="copywrite-text mt-30">
-                        <p>
-                             
-                            <a href="future/index.html" style="color:forestgreen;font-size:1.2em;font-weight:900">Imagine the Future</a> &nbsp;&nbsp;<!-- <a href="https://explor.ga/" style="color:goldenrod;font-size:1.2em;font-weight:900">eXplore</a> -->
-                            &nbsp;&nbsp;&copy;<script>document.write(new Date().getFullYear());</script> | <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <!-- ##### Footer Area End ##### -->
+    </div>
+    <!-- Footer End -->
 
-    <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
-    <script type='text/javascript'>
-         $(document).ready(function() {
-            $("form").submit(function(e){
-                if ( $('#pushToken').val().length > 0 ) {
-                    console.log('submit intercepted: honeypot='+$('#pushToken').val());
-                    e.preventDefault(e);        
-                }
-            });
-        });
-    </script>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
