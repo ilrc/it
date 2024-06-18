@@ -47,6 +47,23 @@
    "density": "4.0"
   }
  ],
+  "shortcuts": [
+    {
+      "name": "What courses can I take?",
+      "short_name": "Courses",
+      "description": "View courses available now",
+      "url": "/courses.html",
+      "icons": [{ "src": "/img/favicon/apple-icon.png", "sizes": "192x192" }]
+    },  
+    {
+      "name": "About",
+      "url": "/about.html"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact.html"
+    }
+  ]    
   "start_url": "/",
   "background_color": "#000",
   "display": "standalone",
