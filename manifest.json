@@ -5,6 +5,12 @@
  "description": "Reconnecting to Nature",
  "icons": [
   {
+      "src": "/maskable_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+  },     
+  {
    "src": "/img/favicon/android-icon-36x36.png",
    "sizes": "36x36",
    "type": "image\/png",
