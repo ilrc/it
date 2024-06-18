@@ -63,7 +63,7 @@
       "name": "Contact",
       "url": "/contact.html"
     }
-  ]    
+  ],    
   "start_url": "/",
   "background_color": "#000",
   "display": "standalone",
